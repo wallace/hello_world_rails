@@ -1,0 +1,3150 @@
+=> Booting WEBrick
+=> Rails 4.0.1 application starting in production on http://0.0.0.0:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+I, [2013-11-18T08:50:36.653786 #25159]  INFO -- : Started GET "/hello/world" for 127.0.0.1 at 2013-11-18 08:50:36 -0500
+I, [2013-11-18T08:50:37.923698 #25159]  INFO -- : Processing by HelloController#world as */*
+I, [2013-11-18T08:50:38.219891 #25159]  INFO -- :   Rendered hello/world.html.erb within layouts/application (42.4ms)
+I, [2013-11-18T08:50:38.415954 #25159]  INFO -- : Completed 200 OK in 445ms (Views: 349.1ms | ActiveRecord: 0.0ms)
+Exiting
+TracePoint:
+	disable                        1
+	enable                         1
+
+Object:
+	require                        660
+	load_dependency                330
+	hash                           5
+	[]                             4
+	gem                            1
+	caller                         1
+	initialize                     1
+	at_exit                        1
+
+HelloWorld::Application:
+	config                         69
+	assets                         13
+	instance_exec                  12
+	load                           8
+	block_given?                   7
+	routes                         7
+	require_dependency             4
+	load_dependency                4
+	paths                          3
+	env_config                     2
+	root                           2
+	call                           2
+	app                            2
+	class                          1
+	endpoint                       1
+	show_exceptions_app            1
+	allow_concurrency?             1
+	load_rack_cache                1
+	default_middleware_stack       1
+	eager_load!                    1
+	routes_reloader                1
+	lambda                         1
+	watchable_args                 1
+	respond_to?                    1
+	to_app                         1
+	build_original_fullpath        1
+	key_generator                  1
+
+Module:
+	method_added                   1154
+	load?                          465
+	mechanism                      465
+	included                       464
+	append_features                361
+	require                        228
+	extend_object                  170
+	extended                       169
+	instance_variable_defined?     130
+	load_dependency                114
+	const_defined?                 101
+	module_eval                    99
+	to_s                           88
+	extend                         79
+	class_eval                     76
+	instance_variable_set          72
+	const_get                      68
+	block_given?                   64
+	autoload                       62
+	private                        61
+	singleton_method_added         59
+	inflections                    58
+	include                        49
+	protected                      34
+	nil?                           31
+	instance_variable_get          30
+	alias_method                   26
+	execute_hook                   26
+	generate_method_for_mime       21
+	new                            19
+	subscribe                      19
+	eager_load!                    17
+	define_method                  17
+	delegate                       14
+	caller                         14
+	loaded                         12
+	pid                            12
+	logger                         12
+	log_activity?                  12
+	html_escape                    11
+	underscore                     11
+	config                         11
+	autoload_paths                 10
+	initialize                     10
+	random_bytes                   9
+	escape                         8
+	accumulate_descendants         8
+	log_call                       8
+	require_or_load                8
+	constantize                    8
+	camelize                       8
+	search_for_file                8
+	inspect                        8
+	descendants                    8
+	depend_on                      8
+	method_defined?                7
+	respond_to?                    6
+	humanize                       6
+	respond_to_missing?            6
+	instrumenter                   6
+	timeout                        5
+	remove_possible_method         5
+	root                           5
+	env                            5
+	run_load_hooks                 5
+	[]                             5
+	store_inherited                5
+	instrument                     5
+	remove_method                  4
+	method_removed                 4
+	deep_copy_hash                 4
+	parse                          4
+	attr_internal_ivar_name        4
+	attr_internal_define           4
+	parse_qvalues                  4
+	encode_www_form_component      4
+	attr_accessor                  4
+	history                        4
+	log                            4
+	attr_internal_writer           3
+	__init__                       3
+	attr_reader                    3
+	add                            3
+	strict_encode64                3
+	attr_writer                    3
+	private_method_defined?        3
+	tag                            2
+	undef_method                   2
+	define_finalizer               2
+	pbkdf2_hmac_sha1               2
+	config=                        2
+	define_aliases                 2
+	locale                         2
+	implementation                 2
+	method_undefined               2
+	default_locale                 2
+	hex                            2
+	mattr_writer                   2
+	paths                          2
+	load_path                      2
+	load                           2
+	scheme_list                    2
+	set_close_on_exec              2
+	dump                           2
+	parser                         2
+	set_cookie_header!             2
+	load_adapter                   2
+	eager_autoload                 2
+	reason_phrase                  2
+	on_load                        2
+	use                            1
+	load_adapter_from_string_name  1
+	mattr_reader                   1
+	mattr_accessor                 1
+	with                           1
+	lookup_store                   1
+	attr_internal_reader           1
+	attr_internal_accessor         1
+	cached_options                 1
+	load_options                   1
+	name                           1
+	get_options                    1
+	default_adapter                1
+	default_load_options           1
+	autoload_once_paths            1
+	escape_html_entities_in_json=  1
+	dasherize                      1
+	create_listeners               1
+	adapter                        1
+	public_path                    1
+	set_non_blocking               1
+	classify                       1
+	parse_header                   1
+	current_adapter                1
+	unescape                       1
+	_unescape                      1
+	normalize_path                 1
+	embed_authenticity_token_in_remote_forms= 1
+	backtrace_cleaner              1
+	default_url_options=           1
+	path                           1
+	load_path=                     1
+	path_separator                 1
+	default_dir                    1
+	uuid                           1
+	seed                           1
+	<                              1
+	backend                        1
+	private_class_method           1
+	mu_extended                    1
+	singleton_class                1
+	mu_initialize                  1
+	const_set                      1
+	proc                           1
+	public_instance_methods        1
+	parse_stream                   1
+	status_code                    1
+	fallbacks=                     1
+	fallbacks                      1
+	reload!                        1
+	extensions                     1
+	compressors                    1
+	parse_nested_query             1
+	bundle_processors              1
+	ms                             1
+	realtime                       1
+	postprocessors                 1
+	base64                         1
+	preprocessors                  1
+	engines                        1
+	registered_mime_types          1
+	apply_inflections              1
+	singularize                    1
+	info?                          1
+	setup_params                   1
+
+Symbol:
+	to_s                           2010
+	==                             1760
+	respond_to_missing?            353
+	=~                             220
+	is_a?                          67
+	to_sym                         55
+	hash                           53
+	upcase                         21
+	inspect                        15
+	to_proc                        15
+	===                            13
+	[]                             6
+	kind_of?                       2
+	nil?                           2
+	!=                             1
+	empty?                         1
+	blank?                         1
+	respond_to?                    1
+
+File:
+	set_encoding                   490
+	write                          5
+	initialize                     1
+	close                          1
+
+Class:
+	method_added                   2236
+	===                            823
+	new                            594
+	singleton_method_added         578
+	class_eval                     356
+	inherited                      303
+	define_method                  260
+	hash                           258
+	define_singleton_method        235
+	method_defined?                211
+	handle_interrupt               205
+	include                        196
+	remove_possible_method         183
+	current                        136
+	singleton_class                135
+	instance_variable_defined?     131
+	<                              129
+	nil?                           126
+	clear_action_methods!          125
+	undef_method                   118
+	singleton_method_undefined     110
+	singleton_class?               108
+	ancestors                      108
+	name                           108
+	basename                       98
+	attr_reader                    95
+	extend                         89
+	private                        84
+	instance                       83
+	private_method_defined?        74
+	module_eval                    72
+	to_s                           72
+	respond_to?                    66
+	class_attribute                65
+	attr_writer                    59
+	now                            54
+	per_thread_registry_instance   45
+	alias_method                   44
+	config                         39
+	protected                      32
+	block_given?                   32
+	escape                         32
+	join                           31
+	expand_path                    30
+	instance_eval                  26
+	attr_accessor                  24
+	file?                          23
+	autoload                       23
+	logger                         20
+	caller                         19
+	delegate                       19
+	mtime                          19
+	require                        18
+	connection_handler             18
+	remove_method                  17
+	method_removed                 17
+	attr_internal_define           17
+	attr_internal_ivar_name        17
+	exists?                        17
+	connection_id                  16
+	public_send                    16
+	pattern                        16
+	superclass                     15
+	[]                             15
+	define_callbacks               14
+	__callback_runner_name         13
+	_helpers                       13
+	__callback_runner_name_cache   13
+	cattr_reader                   10
+	mattr_writer                   10
+	mattr_reader                   10
+	respond_to_missing?            10
+	anonymous?                     10
+	mattr_accessor                 10
+	load_dependency                9
+	cattr_accessor                 9
+	default_connection_handler     9
+	method_missing                 9
+	get_queue                      9
+	cattr_writer                   9
+	public_method_defined?         8
+	__reset_runner                 8
+	set_callback                   8
+	method_undefined               8
+	__update_callbacks             8
+	controller_path                8
+	const_get                      8
+	suffix                         8
+	prefix                         8
+	alias_method_chain             7
+	_helper_methods=               7
+	find                           7
+	__generate_callback_runner_name 7
+	_define_after_model_callback   7
+	config_accessor                7
+	glob                           7
+	select                         7
+	public                         6
+	attr_internal_writer           6
+	registered_details             6
+	helper_method                  6
+	instrumenter_for               6
+	_normalize_callback_option     6
+	register                       6
+	_helper_methods                6
+	Array                          6
+	_wrapper_options               6
+	attribute_method_matchers=     6
+	_implied_layout_name           6
+	modules_for_helpers            6
+	_process_action_callbacks      5
+	attribute_method_matchers      5
+	undefine_attribute_methods     5
+	attribute_methods_generated?   5
+	_prepare_callbacks=            5
+	attr_internal_reader           5
+	_process_action_callbacks=     5
+	attr_internal_accessor         5
+	__define_callbacks             5
+	hidden_actions                 5
+	eager_load!                    5
+	normalize_path                 5
+	create                         5
+	sql_runtime=                   5
+	_prepare_callbacks             5
+	cancel                         5
+	lookup_by_extension            5
+	attribute_method_suffix        4
+	to_prepare                     4
+	require_dependency             4
+	build                          4
+	default_port                   4
+	add_template_helper            4
+	parents                        4
+	parent_name                    4
+	last_match                     4
+	retrieve_connection            4
+	middleware_stack=              4
+	runtime=                       4
+	_define_before_model_callback  4
+	_define_around_model_callback  4
+	lambda                         4
+	connection                     4
+	connection_id=                 4
+	type_klass                     4
+	inspect                        4
+	sql_runtime                    4
+	_flash_types                   4
+	runtime                        4
+	reset_runtime                  4
+	_wrapper_options=              4
+	dirname                        4
+	instance_variable_set          4
+	middleware_stack               4
+	_view_paths                    3
+	proc                           3
+	action_methods                 3
+	helpers_path=                  3
+	_routes                        3
+	exist?                         3
+	extname                        3
+	default_formats                3
+	abstract!                      3
+	public_instance_methods        3
+	caching                        3
+	register_detail                3
+	_insert_callbacks              3
+	initialize                     3
+	directory?                     3
+	parse                          3
+	_normalize_callback_options    3
+	logger=                        3
+	_write_layout_method           3
+	_flash_types=                  3
+	convert                        3
+	start                          3
+	helper                         3
+	handler_for_extension          3
+	registered_template_handler    3
+	_helpers=                      3
+	_layout                        3
+	default_helper_module!         2
+	redefine_method                2
+	debug_assets                   2
+	perform_caching=               2
+	subscribers                    2
+	erb_trim_mode                  2
+	request_forgery_protection_token 2
+	forgery_protection_strategy=   2
+	from_hash                      2
+	default_static_extension       2
+	digest_assets=                 2
+	assets_manifest                2
+	assets_prefix=                 2
+	read                           2
+	_renderers=                    2
+	protected_method_defined?      2
+	default_url_options=           2
+	digest_assets                  2
+	escape_whitelist               2
+	helpers_path                   2
+	erb_implementation             2
+	default_external               2
+	compile                        2
+	optimize_helper?               2
+	binread                        2
+	protected_instance_variables=  2
+	set_cache_for                  2
+	_view_paths=                   2
+	caching=                       2
+	type_klass=                    2
+	assets_prefix                  2
+	log_process_action             2
+	tag                            2
+	delegate_to                    2
+	get                            2
+	time_zone_aware_attributes=    2
+	connected?                     2
+	attach_to                      2
+	initialize_i18n                2
+	define_model_callbacks         2
+	new_from_hash_copying_default  2
+	include_root_in_json=          2
+	configurations=                2
+	default_timezone=              2
+	set                            2
+	hexdigest                      2
+	behavior=                      2
+	deprecate_methods              2
+	match                          2
+	type_cast_config_to_integer    2
+	correct?                       2
+	instance_of?                   2
+	visible_action?                1
+	_call_callbacks=               1
+	after_action                   1
+	endpoint                       1
+	deprecate                      1
+	_cleanup_callbacks=            1
+	prepare!                       1
+	validate_fallbacks             1
+	init_fallbacks                 1
+	include_fallbacks_module       1
+	register_tracker               1
+	instances                      1
+	registered_details=            1
+	before_action                  1
+	included_tags=                 1
+	protocol_separator=            1
+	uri_attributes=                1
+	bad_tags=                      1
+	wrap_parameters                1
+	compile_methods!               1
+	relative_url_root=             1
+	asset_host=                    1
+	stylesheets_dir=               1
+	javascripts_dir=               1
+	wrap                           1
+	cache_store=                   1
+	assets_dir=                    1
+	allowed_tags=                  1
+	view_paths                     1
+	prepend_view_path              1
+	allowed_attributes=            1
+	allowed_protocols=             1
+	allowed_css_properties=        1
+	allow_forgery_protection=      1
+	allow_forgery_protection       1
+	allowed_css_keywords=          1
+	request_forgery_protection_token= 1
+	shorthand_css_properties=      1
+	eager_autoload                 1
+	add_flash_types                1
+	include_all_helpers            1
+	rescue_handlers=               1
+	mimes_for_respond_to=          1
+	clear_respond_to               1
+	responder=                     1
+	all_application_helpers        1
+	all_helpers_from_path          1
+	quote                          1
+	_view_cache_dependencies=      1
+	protect_from_forgery           1
+	perform_caching                1
+	default_static_extension=      1
+	protection_method_class        1
+	prepend_before_action          1
+	debug_assets=                  1
+	config=                        1
+	private_class_method           1
+	etaggers=                      1
+	defaults                       1
+	load                           1
+	blank?                         1
+	collect_load_options           1
+	hidden_actions=                1
+	include_all_helpers=           1
+	cache                          1
+	collect_options                1
+	load_options                   1
+	get_options                    1
+	default_load_options           1
+	assets_manifest=               1
+	normalize_name                 1
+	broadcast                      1
+	open                           1
+	run                            1
+	getaddrinfo                    1
+	_layout_conditions=            1
+	_layout=                       1
+	get_instance                   1
+	_call_callbacks                1
+	_attr_readonly=                1
+	register_callback              1
+	table_name_prefix=             1
+	table_name_suffix=             1
+	pluralize_table_names=         1
+	inheritance_column=            1
+	register_template_handler      1
+	default_form_builder=          1
+	store_full_sti_class=          1
+	default_scopes=                1
+	types                          1
+	cache_timestamp_format=        1
+	types=                         1
+	default_formats=               1
+	_validate_callbacks=           1
+	_validators=                   1
+	lock_optimistically=           1
+	attribute_aliases=             1
+	initialize_generated_modules   1
+	attribute_types_cached_by_default= 1
+	skip_time_zone_conversion_for_attributes= 1
+	attribute_method_affix         1
+	partial_writes=                1
+	serialized_attributes=         1
+	_validation_callbacks=         1
+	_initialize_callbacks=         1
+	_find_callbacks=               1
+	_touch_callbacks=              1
+	_save_callbacks=               1
+	_create_callbacks=             1
+	_update_callbacks=             1
+	_destroy_callbacks=            1
+	record_timestamps=             1
+	nested_attributes_options=     1
+	_commit_callbacks=             1
+	_rollback_callbacks=           1
+	reflections=                   1
+	stored_attributes=             1
+	schema_format=                 1
+	timestamped_migrations=        1
+	disable_implicit_join_references= 1
+	default_connection_handler=    1
+	behavior                       1
+	make_scanner                   1
+	establish_connection           1
+	configurations                 1
+	remove_connection              1
+	sqlite3_connection             1
+	type_cast_config_to_boolean    1
+	_checkout_callbacks            1
+	action                         1
+	default_headers                1
+	parent_prefixes                1
+	union                          1
+	internal_methods               1
+	ignore_accept_header           1
+	parse_trailing_star            1
+	lookup                         1
+	options_for_env                1
+	_renderers                     1
+	view_context_class             1
+	_url_for_modules               1
+	protected_instance_variables   1
+	permit_all_parameters          1
+	default_charset                1
+	digest                         1
+	flush_all!                     1
+	clear_active_connections!      1
+	_checkin_callbacks             1
+	exception                      1
+	shutdown                       1
+	delete                         1
+
+Rails::Application::Configuration:
+	method_missing                 35
+	paths                          5
+	session_store                  3
+	require                        2
+	middleware                     2
+	eager_load_namespaces          1
+	eager_load_paths               1
+	to_prepare_blocks              1
+	watchable_files                1
+	watchable_dirs                 1
+	block_given?                   1
+	generators                     1
+	database_configuration         1
+	load_dependency                1
+
+Array:
+	each                           603
+	first                          256
+	last                           236
+	push                           134
+	extract_options!               124
+	map                            122
+	pop                            120
+	join                           95
+	include?                       74
+	hash                           45
+	flatten                        34
+	compact                        32
+	uniq                           28
+	any?                           27
+	respond_to?                    25
+	dup                            18
+	each_entry                     18
+	initialize_dup                 18
+	initialize_copy                18
+	instance_of?                   17
+	nil?                           17
+	slice!                         16
+	shift                          16
+	select                         15
+	map!                           14
+	reject                         14
+	concat                         12
+	sort                           11
+	-                              11
+	reverse                        11
+	==                             11
+	inject                         10
+	object_id                      10
+	initialize                     9
+	uniq!                          9
+	flatten!                       7
+	group_by                       7
+	max                            7
+	[]=                            7
+	unshift                        7
+	blank?                         6
+	find_all                       6
+	sort!                          6
+	freeze                         6
+	*                              5
+	present?                       5
+	respond_to_missing?            5
+	detect                         5
+	delete_if                      5
+	find                           5
+	delete                         5
+	clear                          4
+	|                              4
+	each_slice                     4
+	each_with_object               4
+	pack                           4
+	index                          3
+	collect!                       3
+	collect                        3
+	to_set                         3
+	presence                       3
+	inspect                        3
+	insert                         3
+	sort_by                        2
+	&                              2
+	tap                            2
+	!=                             2
+	reverse!                       2
+	member?                        2
+	all?                           2
+	compact!                       2
+	partition                      1
+	reverse_each                   1
+	sort_by!                       1
+	select!                        1
+	zip                            1
+	eql?                           1
+	flat_map                       1
+	taint                          1
+	to_default_s                   1
+	to_ary                         1
+	[]                             1
+	to_formatted_s                 1
+
+Hash:
+	[]=                            716
+	fetch                          349
+	key?                           136
+	is_a?                          116
+	shift                          103
+	include?                       92
+	initialize_copy                77
+	initialize_dup                 76
+	delete                         74
+	initialize                     55
+	extractable_options?           52
+	instance_of?                   52
+	dup                            41
+	each                           40
+	values_at                      35
+	merge                          35
+	merge!                         32
+	keys                           23
+	clear                          23
+	kind_of?                       19
+	values                         15
+	[]                             14
+	freeze                         14
+	inject                         11
+	each_key                       10
+	each_pair                      9
+	has_key?                       8
+	transform_keys                 8
+	key                            5
+	stringify_keys                 5
+	delete_if                      5
+	blank?                         4
+	hash                           4
+	except!                        4
+	except                         4
+	class                          3
+	default_proc=                  3
+	symbolize_keys                 3
+	respond_to_missing?            3
+	update                         3
+	symbolize_keys!                2
+	default                        2
+	with_indifferent_access        2
+	respond_to?                    2
+	extract!                       2
+	each_value                     2
+	all?                           2
+	transform_keys!                2
+	slice                          1
+	keep_if                        1
+	tap                            1
+	initialize_clone               1
+	each_with_object               1
+	replace                        1
+	to_hash                        1
+	clone                          1
+	map                            1
+
+Rails::Initializable::Initializer:
+	after                          1320
+	before                         1320
+	hash                           117
+	belongs_to?                    16
+	run                            16
+
+Coffee::Rails::Engine:
+	config                         1
+	eager_load!                    1
+	instance_exec                  1
+
+Rails::Initializable::Collection:
+	select                         15
+	tsort_each_child               15
+	each_strongly_connected_component_from 15
+
+String:
+	==                             1215
+	to_s                           356
+	===                            154
+	[]                             133
+	sub                            115
+	initialize_copy                103
+	initialize_dup                 103
+	gsub                           88
+	rindex                         87
+	downcase                       82
+	gsub!                          82
+	is_a?                          76
+	split                          70
+	sub!                           53
+	to_i                           52
+	dup                            51
+	strip                          50
+	nil?                           46
+	freeze                         45
+	=~                             45
+	chomp!                         43
+	%                              42
+	upcase                         38
+	to_sym                         38
+	respond_to?                    35
+	respond_to_missing?            31
+	!~                             25
+	html_safe                      22
+	force_encoding                 22
+	blank?                         21
+	tr!                            17
+	capitalize                     16
+	downcase!                      14
+	inspect                        14
+	encoding                       12
+	intern                         12
+	html_safe?                     11
+	to_str                         10
+	underscore                     10
+	hash                           9
+	tr                             9
+	present?                       8
+	camelize                       7
+	valid_encoding?                6
+	humanize                       6
+	encode!                        5
+	scan                           5
+	*                              5
+	kind_of?                       5
+	bytesize                       4
+	constantize                    4
+	match                          3
+	strip!                         3
+	unpack                         3
+	upcase!                        3
+	squeeze!                       3
+	include?                       2
+	chomp                          2
+	presence                       2
+	end_with?                      1
+	dasherize                      1
+	concat                         1
+	dump                           1
+	count                          1
+	each_line                      1
+	classify                       1
+	delete                         1
+	!=                             1
+
+Jquery::Rails::Engine:
+	config                         1
+	eager_load!                    1
+	instance_exec                  1
+
+Turbolinks::Engine:
+	instance_exec                  2
+	eager_load!                    1
+	config                         1
+
+NilClass:
+	nil?                           95
+	respond_to_missing?            65
+	is_a?                          58
+	_get                           53
+	to_s                           48
+	[]=                            28
+	kind_of?                       21
+	method_missing                 18
+	initialize                     16
+	to_a                           16
+	class                          15
+	logger                         10
+	tag_option                     10
+	[]                             8
+	instance_variable_defined?     8
+	===                            8
+	inheritable_copy               6
+	=~                             6
+	respond_to?                    6
+	blank?                         6
+	present?                       6
+	==                             6
+	tag_options                    4
+	request_forgery_protection_token 3
+	tag                            3
+	digest_assets                  2
+	request_debug_assets?          2
+	stylesheet_link_tag            2
+	javascript_include_tag         2
+	asset_host                     2
+	compute_asset_host             2
+	relative_url_root              2
+	instance_variable_set          2
+	assets_prefix                  2
+	allow_forgery_protection       2
+	params                         2
+	debug_assets                   2
+	assets_manifest                2
+	eql?                           2
+	asset_digest_path              2
+	compute_asset_path             2
+	compute_asset_extname          2
+	to_i                           2
+	asset_path                     2
+	_layout_for                    2
+	default_static_extension       1
+	presence                       1
+	hash                           1
+	stylesheet_path                1
+	keys                           1
+	compile_methods!               1
+	try                            1
+	assign                         1
+	assign_controller              1
+	_prepare_context               1
+	_app_views_hello_world_html_erb___3806386524020987635_70330059552940 1
+	_app_views_layouts_application_html_erb___2200981293541924562_70330069784720 1
+	javascript_path                1
+	content_tag                    1
+	block_given?                   1
+	content_tag_string             1
+	csrf_meta_tags                 1
+	protect_against_forgery?       1
+	form_authenticity_token        1
+	instance_of?                   1
+
+ThreadSafe::Cache:
+	[]                             608
+	[]=                            70
+	clear                          40
+	initialize                     36
+	key?                           16
+	validate_options_hash!         5
+	delete                         4
+	dupped_backend                 2
+	each_pair                      2
+	values                         1
+	get_or_default                 1
+	fetch                          1
+	keys                           1
+
+ActionController::LogSubscriber:
+	respond_to?                    42
+	respond_to_missing?            14
+	logger                         10
+	event_stack                    6
+	finish                         4
+	start                          4
+	initialize                     2
+	info                           2
+	public_methods                 1
+	start_processing               1
+	object_id                      1
+	class                          1
+	process_action                 1
+
+Fixnum:
+	divmod                         86
+	+                              59
+	<=>                            44
+	to_s                           41
+	to_default_s                   41
+	kind_of?                       21
+	nil?                           18
+	*                              9
+	is_a?                          8
+	to_i                           8
+	abs                            7
+	zero?                          6
+	fdiv                           5
+	|                              5
+	-                              5
+	quo                            5
+	to_int                         4
+	inspect                        4
+	===                            3
+	==                             3
+	times                          3
+	to_f                           2
+	=~                             2
+	&                              2
+	round                          1
+	!=                             1
+
+ActiveSupport::Notifications::Fanout:
+	mu_synchronize                 25
+	subscribe                      19
+	listeners_for                  13
+	hash                           6
+	listening?                     5
+	start                          4
+	finish                         4
+
+ActiveSupport::Notifications::Fanout::Subscribers::Evented:
+	subscribed_to?                 143
+	initialize                     19
+	start                          3
+	finish                         3
+
+Mutex:
+	synchronize                    316
+	initialize                     20
+	lock                           16
+	unlock                         16
+
+ActionController::MiddlewareStack:
+	initialize_dup                 3
+	initialize_copy                3
+	dup                            3
+	build                          1
+	block_given?                   1
+	initialize                     1
+
+Regexp:
+	=~                             108
+	===                            92
+	initialize                     20
+	freeze                         18
+	to_s                           11
+	!~                             7
+	==                             5
+	match                          5
+	hash                           2
+	kind_of?                       1
+
+ActionView::LogSubscriber:
+	respond_to?                    12
+	logger                         5
+	respond_to_missing?            4
+	event_stack                    3
+	finish                         2
+	from_rails_root                2
+	initialize                     2
+	start                          2
+	render_template                1
+	public_methods                 1
+	object_id                      1
+	class                          1
+	info                           1
+
+Proc:
+	call                           184
+	yield                          63
+	initialize                     6
+	arity                          5
+	to_proc                        3
+	[]                             2
+	hash                           1
+
+Mime::Mimes:
+	each                           1
+	map                            1
+	symbols                        1
+
+Mime::Type:
+	to_sym                         48
+	is_a?                          21
+	to_s                           5
+	ref                            4
+	respond_to?                    3
+	==                             2
+	to_ary                         2
+	to_a                           2
+	hash                           2
+	initialize                     1
+	try                            1
+	public_send                    1
+
+Set:
+	add                            235
+	include?                       24
+	initialize                     20
+	do_with_enum                   18
+	merge                          17
+	class                          17
+	freeze                         6
+	delete                         2
+	each                           2
+	initialize_dup                 1
+	-                              1
+	dup                            1
+	to_a                           1
+	initialize_copy                1
+	instance_variable_get          1
+	subtract                       1
+	reject                         1
+
+ActiveSupport::OrderedOptions:
+	[]                             22
+	method_missing                 11
+	delete                         6
+	each                           4
+
+ActionView::PathSet:
+	find_all                       3
+	typecast                       3
+	initialize                     3
+	to_ary                         2
+	find                           1
+	freeze                         1
+
+FalseClass:
+	===                            3
+	==                             3
+	hash                           1
+	eql?                           1
+	respond_to_missing?            1
+
+TrueClass:
+	===                            4
+	==                             4
+	nil?                           2
+	is_a?                          2
+	to_s                           2
+
+ActiveSupport::Callbacks::CallbackChain:
+	initialize                     15
+	delete_if                      8
+	remove_duplicates              8
+	initialize_copy                8
+	initialize_dup                 8
+	dup                            8
+	push                           6
+	append                         6
+	append_one                     6
+	compile                        5
+	reverse_each                   5
+	prepend                        2
+	prepend_one                    2
+	unshift                        2
+
+ActionController::ParamsWrapper::Options:
+	initialize                     6
+	klass=                         3
+	format                         3
+	dup                            2
+	initialize_dup                 2
+	mu_initialize                  2
+	initialize_copy                2
+	to_h                           1
+	model=                         1
+
+ActionView::OptimizedFileSystemResolver:
+	decorate                       3
+	find_all                       3
+	initialize                     3
+	escape_entry                   3
+	cached                         3
+	query                          3
+	find_templates                 3
+	build_query                    3
+	mtime                          2
+	extract_handler_and_format     2
+
+ActionView::Resolver::Cache:
+	canonical_no_templates         3
+	cache                          3
+	initialize                     3
+
+ActionView::Resolver::Cache::SmallCache:
+	initialize                     42
+	[]                             30
+	[]=                            28
+	validate_options_hash!         14
+	key?                           11
+
+ActionDispatch::Routing::RouteSet:
+	url_helpers                    3
+	mounted_helpers                2
+	add_route                      1
+	build_conditions               1
+	build_path                     1
+	finalize!                      1
+	eval_block                     1
+	draw                           1
+	clear!                         1
+	object_id                      1
+	define_mounted_helper          1
+	call                           1
+
+ActiveSupport::Callbacks::Callback:
+	Array                          16
+	duplicates?                    12
+	matches?                       12
+	normalize_options!             8
+	deprecate_per_key_option       8
+	_compile_filter                8
+	initialize                     8
+	recompile_options!             8
+	next_id                        4
+	apply                          4
+
+Rails::Paths::Root:
+	[]                             5
+
+Rails::Paths::Path:
+	each                           5
+	expanded                       5
+	first                          4
+	existent                       1
+
+Pathname:
+	chop_basename                  95
+	initialize                     29
+	to_s                           15
+	expand_path                    9
+	relative?                      8
+	to_path                        8
+
+ActiveSupport::StringInquirer:
+	method_missing                 2
+	==                             2
+	+                              1
+	eql?                           1
+
+ActionDispatch::MiddlewareStack:
+	class                          20
+	use                            17
+	assert_index                   5
+	insert                         3
+	insert_after                   2
+	build                          1
+	tap                            1
+	block_given?                   1
+	initialize                     1
+
+ActionDispatch::MiddlewareStack::Middleware:
+	normalize                      46
+	==                             23
+	klass                          20
+	build                          20
+	initialize                     20
+
+ActionDispatch::PublicExceptions:
+	initialize                     1
+
+Rails::Configuration::MiddlewareStackProxy:
+	merge_into                     1
+
+ActiveSupport::Cache::Strategy::LocalCache::Middleware:
+	call                           1
+	new                            1
+	respond_to?                    1
+
+Rack::ETag:
+	digest_body                    1
+	skip_caching?                  1
+	etag_body?                     1
+	etag_status?                   1
+	call                           1
+	initialize                     1
+
+Rack::ConditionalGet:
+	fresh?                         1
+	call                           1
+	initialize                     1
+
+Rack::Head:
+	call                           1
+	initialize                     1
+
+ActionDispatch::ParamsParser:
+	parse_formatted_parameters     1
+	call                           1
+	initialize                     1
+
+ActionDispatch::Flash:
+	call                           1
+	initialize                     1
+
+ActionDispatch::Session::CookieStore:
+	initialize                     3
+	stale_session_check!           3
+	loaded_session?                2
+	current_session_id             2
+	session_exists?                2
+	unpacked_cookie_data           2
+	cookie_jar                     2
+	get_cookie                     1
+	load_session                   1
+	generate_sid                   1
+	persistent_session_id!         1
+	commit_session                 1
+	commit_session?                1
+	extract_session_id             1
+	security_matches?              1
+	set_session                    1
+	prepare_session                1
+	context                        1
+	call                           1
+	initialize_sid                 1
+	class                          1
+	set_cookie                     1
+
+ActionDispatch::Cookies:
+	call                           1
+	initialize                     1
+
+ActiveSupport::Dependencies::ClassCache:
+	get                            3
+
+ActiveRecord::QueryCache:
+	restore_query_cache_settings   1
+	call                           1
+	initialize                     1
+
+ActiveSupport::Deprecation:
+	Array                          2
+	deprecate_methods              2
+	behavior=                      2
+	behavior                       1
+
+ActiveRecord::ConnectionAdapters::ConnectionManagement:
+	call                           1
+	initialize                     1
+
+ActionDispatch::Callbacks:
+	class                          2
+	respond_to?                    1
+	instance_variable_defined?     1
+	_call_callbacks                1
+	_run__4583033515990028509__call__callbacks 1
+	block_given?                   1
+	run_callbacks                  1
+	call                           1
+	initialize                     1
+
+ActionDispatch::RemoteIp:
+	call                           1
+	initialize                     1
+
+ActionDispatch::DebugExceptions:
+	call                           1
+	initialize                     1
+
+ActionDispatch::ShowExceptions:
+	call                           1
+	initialize                     1
+
+Rails::Rack::Logger:
+	logger                         3
+	call_app                       1
+	development?                   1
+	started_request_message        1
+	compute_tags                   1
+	finish                         1
+	call                           1
+	initialize                     1
+
+ActionDispatch::RequestId:
+	internal_request_id            1
+	external_request_id            1
+	call                           1
+	initialize                     1
+
+Rack::MethodOverride:
+	call                           1
+	initialize                     1
+
+Rack::Runtime:
+	call                           1
+	initialize                     1
+
+ActionDispatch::Static:
+	call                           1
+	initialize                     1
+
+ActionDispatch::FileHandler:
+	ext                            1
+	escape_glob_chars              1
+	unescape_path                  1
+	match?                         1
+	initialize                     1
+
+Rack::File:
+	initialize                     1
+
+Rack::Sendfile:
+	call                           1
+	initialize                     1
+
+ActionDispatch::Reloader:
+	class                          2
+	block_given?                   1
+	instance_variable_defined?     1
+	_prepare_callbacks             1
+	respond_to?                    1
+	_run__1662104146339520851__prepare__callbacks 1
+	run_callbacks                  1
+	validated?                     1
+	prepare!                       1
+	lambda                         1
+	initialize                     1
+
+Thread:
+	[]                             68
+	hash                           30
+	[]=                            11
+	object_id                      1
+
+I18n::Config:
+	default_locale                 3
+	backend                        2
+	locale                         2
+	load_path                      2
+	initialize                     1
+	respond_to?                    1
+	load_path=                     1
+	respond_to_missing?            1
+
+I18n::Backend::Simple:
+	reload!                        2
+	class                          1
+	initialize                     1
+
+I18n::Locale::Fallbacks:
+	Array                          2
+	[]                             2
+	compute                        2
+	store                          1
+	defaults=                      1
+	initialize                     1
+
+I18n::Locale::Tag::Simple:
+	parent                         4
+	subtags                        4
+	to_a                           4
+	to_sym                         2
+	parents                        2
+	self_and_parents               2
+	initialize                     2
+
+ActiveSupport::FileUpdateChecker:
+	Array                          7
+	compile_ext                    7
+	escape                         7
+	updated_at                     6
+	watched                        6
+	max_mtime                      6
+	compile_glob                   3
+	initialize                     3
+	execute                        2
+	updated?                       1
+	execute_if_updated             1
+
+Time:
+	initialize                     54
+	is_a?                          39
+	to_time                        29
+	getlocal                       29
+	compare_with_coercion          29
+	compare_without_coercion       29
+	<                              18
+	strftime                       18
+	usec                           8
+	respond_to_missing?            5
+	respond_to?                    5
+	plus_with_duration             5
+	plus_without_duration          5
+	minus_with_coercion            5
+	minus_with_duration            5
+	minus_without_duration         5
+	year                           2
+	nsec                           1
+	utc                            1
+	to_default_s                   1
+	initialize_copy                1
+	to_i                           1
+	httpdate                       1
+	dup                            1
+	wday                           1
+	day                            1
+	mon                            1
+	initialize_dup                 1
+	hour                           1
+	min                            1
+	sec                            1
+	sprintf                        1
+
+ActionView::Template::Handlers::ERB:
+	class                          6
+	call                           2
+	valid_encoding                 2
+	handles_encoding?              2
+	respond_to?                    2
+	hash                           1
+
+Monitor:
+	initialize                     2
+	mon_initialize                 1
+
+ActionView::FallbackFileSystemResolver:
+	initialize                     6
+
+Rails::Engine::Configuration:
+	eager_load_paths               3
+
+Sprockets::Railtie::OrderedOptions:
+	[]                             28
+	method_missing                 14
+
+Sprockets::Environment:
+	append_path                    16
+	expire_index!                  14
+	add_engine_to_trail            9
+	mime_types                     6
+	deep_copy_hash                 6
+	extension_for_mime_type        5
+	register_bundle_processor      4
+	block_given?                   3
+	compressors                    3
+	require                        2
+	version=                       2
+	respond_to?                    2
+	js_compressor=                 1
+	js_compressor                  1
+	cache=                         1
+	css_compressor=                1
+	css_compressor                 1
+	index                          1
+	digest                         1
+	engines                        1
+	preprocessors                  1
+	load_dependency                1
+	postprocessors                 1
+	bundle_processors              1
+	initialize                     1
+
+Hike::Trail:
+	append_extensions              11
+	normalize_extension            10
+	append_paths                   8
+	alias_extension                5
+	root                           1
+	index                          1
+	initialize                     1
+
+Hike::Paths:
+	push                           16
+	normalize_elements             8
+	normalize_element              8
+	initialize                     3
+	initialize_copy                2
+	dup                            2
+	initialize_dup                 2
+	freeze                         1
+	each                           1
+	map                            1
+
+Hike::Extensions:
+	push                           22
+	normalize_element              11
+	normalize_elements             11
+	initialize                     2
+	dup                            1
+	initialize_dup                 1
+	initialize_copy                1
+	freeze                         1
+
+Logger:
+	initialize                     1
+
+Logger::Formatter:
+	call                           16
+	current_tags                   11
+	msg2str                        8
+	format_datetime                8
+	tags_text                      8
+	initialize                     2
+	clear_tags!                    1
+	push_tags                      1
+	tagged                         1
+	pop_tags                       1
+
+Logger::LogDevice:
+	write                          8
+	nil?                           8
+	initialize                     2
+
+Logger::LogDevice::LogDeviceMutex:
+	mon_check_owner                8
+	mon_exit                       8
+	mon_synchronize                8
+	mon_enter                      8
+	initialize                     4
+	mon_initialize                 2
+
+IO:
+	write                          11
+	<<                             5
+	respond_to?                    4
+	puts                           1
+
+Sprockets::Cache::FileStore:
+	initialize                     1
+
+Sprockets::Manifest:
+	assets                         2
+	json_decode                    1
+	initialize                     1
+
+MultiJson::Adapters::JsonGem:
+	load                           1
+	initialize                     1
+
+JSON::Ext::Parser:
+	parse                          1
+	initialize                     1
+
+Sprockets::Index:
+	initialize                     1
+
+Hike::Index:
+	initialize                     1
+
+Digest::MD5:
+	update                         3
+	reset                          2
+	initialize                     2
+	initialize_copy                1
+	initialize_dup                 1
+	dup                            1
+	digest                         1
+	finish                         1
+
+Rails::Application::RoutesReloader:
+	load                           2
+	load_paths                     1
+	load_dependency                1
+	revert                         1
+	finalize!                      1
+	clear!                         1
+	reload!                        1
+	updater                        1
+	execute_if_updated             1
+
+ActionDispatch::Routing::RouteSet::NamedRouteCollection:
+	define_url_helper              2
+	define_named_route_methods     1
+	helper_names                   1
+	add                            1
+	get                            1
+	clear!                         1
+
+ActionDispatch::Journey::Routes:
+	ast                            2
+	partitioned_routes             2
+	clear_cache!                   1
+	simulator                      1
+	add_route                      1
+	each                           1
+	find                           1
+	clear                          1
+
+ActionDispatch::Journey::Formatter:
+	clear                          1
+
+ActionDispatch::Routing::Mapper:
+	parent_resource                2
+	canonical_action?              2
+	path_for_action                1
+	name_for_action                1
+	prefix_name_for_action         1
+	shallow?                       1
+	shallow_scoping?               1
+	action_path                    1
+	add_route                      1
+	decomposed_match               1
+	using_match_shorthand?         1
+	match                          1
+	map_method                     1
+	get                            1
+	instance_exec                  1
+	initialize                     1
+
+URI::Parser:
+	parse                          2
+	split                          2
+	escape                         1
+	unescape                       1
+	initialize_regexp              1
+	initialize_pattern             1
+	initialize                     1
+
+ActionDispatch::Routing::Mapper::Mapping:
+	segment_keys                   6
+	to                             4
+	constraints                    2
+	blocks                         1
+	to_route                       1
+	normalize_defaults!            1
+	Array                          1
+	strexp                         1
+	path_pattern                   1
+	app                            1
+	normalize_conditions!          1
+	endpoint                       1
+	normalize_requirements!        1
+	optional_format?               1
+	required_format?               1
+	normalize_path!                1
+	dispatcher                     1
+	default_controller_and_action  1
+	normalize_options!             1
+	initialize                     1
+
+ActionDispatch::Journey::Router::Strexp:
+	initialize                     2
+
+ActionDispatch::Journey::Path::Pattern:
+	names                          5
+	initialize                     2
+	ast                            1
+	match                          1
+	to_regexp                      1
+	optional_names                 1
+	required_names                 1
+	regexp_visitor                 1
+	offsets                        1
+
+ActionDispatch::Journey::Parser:
+	next_token                     18
+	_reduce_1                      10
+	_reduce_14                     4
+	class                          4
+	_reduce_16                     4
+	_reduce_2                      4
+	_reduce_7                      2
+	_reduce_17                     2
+	_racc_do_parse_c               2
+	_reduce_15                     2
+	_racc_setup                    2
+	do_parse                       2
+	parse                          2
+	initialize                     2
+
+ActionDispatch::Journey::Scanner:
+	next_token                     18
+	scan                           16
+	scan_setup                     2
+	initialize                     2
+
+StringScanner:
+	scan                           82
+	eos?                           20
+	initialize                     4
+	[]                             2
+
+ActionDispatch::Journey::Nodes::Slash:
+	type                           30
+	hash                           22
+	initialize                     4
+	literal?                       2
+	==                             2
+	symbol?                        1
+
+ActionDispatch::Journey::Nodes::Literal:
+	hash                           37
+	type                           30
+	==                             4
+	initialize                     4
+	literal?                       2
+
+ActionDispatch::Journey::Nodes::Cat:
+	type                           76
+	initialize                     24
+	each                           11
+	grep                           8
+	literal?                       5
+	find_all                       1
+
+ActionDispatch::Journey::Nodes::Dot:
+	hash                           16
+	type                           14
+	==                             2
+	initialize                     2
+	symbol?                        1
+	literal?                       1
+
+ActionDispatch::Journey::Nodes::Symbol:
+	hash                           19
+	type                           14
+	name                           6
+	initialize                     4
+	to_sym                         3
+	==                             2
+	default_regexp?                1
+	literal?                       1
+
+ActionDispatch::Journey::Nodes::Group:
+	type                           16
+	initialize                     2
+	literal?                       1
+	grep                           1
+	each                           1
+
+ActionDispatch::Journey::Visitors::Each:
+	visit                          282
+	terminal                       70
+	visit_CAT                      58
+	binary                         58
+	visit_LITERAL                  24
+	visit_SLASH                    22
+	initialize                     12
+	visit_GROUP                    12
+	unary                          12
+	visit_DOT                      12
+	accept                         12
+	visit_SYMBOL                   12
+	visit_OR                       1
+	nary                           1
+
+ActionDispatch::Routing::RouteSet::Dispatcher:
+	is_a?                          4
+	normalize_controller!          1
+	controller                     1
+	merge_default_action!          1
+	controller_reference           1
+	prepare_params!                1
+	call                           1
+	dispatch                       1
+	initialize                     1
+
+ActionDispatch::Journey::GTG::Builder:
+	nullable?                      53
+	lastpos                        29
+	firstpos                       24
+	followpos                      12
+	followpos_table                12
+	symbol                         8
+	build_followpos                2
+	initialize                     2
+	transition_table               1
+
+ActionDispatch::Journey::Nodes::Dummy:
+	hash                           14
+	type                           2
+	literal?                       1
+
+ActionDispatch::Journey::Route:
+	matches?                       2
+	requirements                   2
+	verb                           2
+	ast                            2
+	parts                          2
+	required_parts                 2
+	initialize                     2
+	optimized_path                 2
+	tap                            1
+	segments                       1
+
+ActionDispatch::Routing::RouteSet::NamedRouteCollection::UrlHelper::OptimizedUrlHelper:
+	initialize                     4
+
+ActionDispatch::Journey::Visitors::OptimizedPath:
+	visit                          18
+	terminal                       8
+	visit_CAT                      8
+	binary                         8
+	visit_SLASH                    4
+	visit_LITERAL                  4
+	visit_GROUP                    2
+	accept                         2
+	initialize                     2
+
+Rack::Builder:
+	to_app                         1
+	run                            1
+
+Rails::Server:
+	options                        16
+	server                         4
+	wrapped_app                    2
+	pidfile_process_status         1
+	at_exit                        1
+	write_pid                      1
+	check_pid!                     1
+	start                          1
+	trap                           1
+	middleware                     1
+	build_app                      1
+	puts                           1
+
+Rack::Lock:
+	call                           1
+	initialize                     1
+
+Rack::ContentLength:
+	call                           1
+	initialize                     1
+
+ActiveSupport::Logger:
+	add                            12
+	block_given?                   8
+	format_message                 8
+	format_severity                8
+	info                           4
+	info?                          3
+	initialize                     2
+	respond_to?                    2
+	flush                          1
+	tagged                         1
+	extend                         1
+	clear_tags!                    1
+
+ActiveSupport::Logger::SimpleFormatter:
+	initialize                     1
+
+WEBrick::HTTPServer:
+	[]                             3
+	call_callback                  3
+	class                          2
+	initialize                     2
+	run                            1
+	search_servlet                 1
+	service                        1
+	access_log                     1
+	lookup_server                  1
+	format                         1
+	start_thread                   1
+	accept_client                  1
+	raise                          1
+	shutdown                       1
+	start                          1
+	sprintf                        1
+	mount                          1
+	listen                         1
+	stop                           1
+
+WEBrick::Log:
+	log                            20
+	format                         10
+	info                           5
+	debug                          5
+	initialize                     2
+	debug?                         1
+
+SizedQueue:
+	push                           101
+	pop                            2
+	initialize                     2
+	taint                          1
+
+ConditionVariable:
+	signal                         103
+	initialize                     4
+
+TCPServer:
+	close                          1
+	shutdown                       1
+	accept                         1
+	fcntl                          1
+	initialize                     1
+
+WEBrick::HTTPVersion:
+	class                          10
+	initialize                     6
+	<=>                            5
+	<                              5
+	is_a?                          3
+	to_s                           2
+	format                         2
+
+WEBrick::HTTPServer::MountTable:
+	normalize                      2
+	compile                        2
+	[]                             1
+	[]=                            1
+	scan                           1
+	initialize                     1
+
+ThreadGroup:
+	list                           1
+	add                            1
+	initialize                     1
+
+TCPSocket:
+	gets                           5
+	fcntl                          3
+	<<                             2
+	write                          2
+	peeraddr                       2
+	eof?                           2
+	respond_to?                    2
+	addr                           1
+	closed?                        1
+	do_not_reverse_lookup=         1
+	close                          1
+	sync=                          1
+
+WEBrick::HTTPResponse:
+	[]=                            9
+	chunked?                       3
+	keep_alive?                    3
+	initialize                     2
+	status=                        2
+	_write_data                    2
+	send_header                    1
+	status_line                    1
+	send_body                      1
+	setup_header                   1
+	send_response                  1
+	send_body_string               1
+	set_error                      1
+	respond_to?                    1
+	respond_to_missing?            1
+
+WEBrick::HTTPRequest:
+	[]                             18
+	_read_data                     5
+	read_line                      5
+	keep_alive?                    4
+	body                           2
+	read_body                      2
+	initialize                     2
+	parse_uri                      1
+	setup_forwarded_info           1
+	meta_vars                      1
+	read_header                    1
+	each                           1
+	fixup                          1
+	read_request_line              1
+	parse                          1
+	port                           1
+
+WEBrick::Utils::TimeoutHandler:
+	sleep                          9
+	cancel                         5
+	register                       5
+	initialize                     1
+
+MatchData:
+	[]                             5
+	begin                          4
+	end                            4
+
+Float:
+	round                          2
+	to_default_s                   1
+	-                              1
+	to_s                           1
+	to_f                           1
+	-@                             1
+
+URI::Generic:
+	class                          2
+	set_scheme                     2
+	set_host                       2
+	set_port                       2
+	default_port                   2
+	parser                         2
+	path_query                     1
+	check_host                     1
+	check_scheme                   1
+	scheme=                        1
+	absolute?                      1
+	host=                          1
+	port=                          1
+	set_fragment                   1
+	set_registry                   1
+	set_opaque                     1
+	set_query                      1
+	set_path                       1
+	check_port                     1
+	to_s                           1
+	split_userinfo                 1
+	set_userinfo                   1
+	userinfo                       1
+	initialize                     1
+
+URI::HTTP:
+	initialize                     2
+	default_port                   2
+	class                          2
+	set_opaque                     1
+	userinfo                       1
+	set_fragment                   1
+	set_registry                   1
+	to_s                           1
+	set_query                      1
+	set_path                       1
+	set_port                       1
+	set_host                       1
+	split_userinfo                 1
+	set_userinfo                   1
+	set_scheme                     1
+	path_query                     1
+
+Rack::Handler::WEBrick:
+	initialize                     2
+	class                          1
+	service                        1
+
+StringIO:
+	initialize                     2
+	set_encoding                   1
+	respond_to?                    1
+	nil?                           1
+
+Rails::BacktraceCleaner:
+	add_filter                     4
+	initialize                     2
+	add_gem_filters                1
+	add_silencer                   1
+
+Gem::PathSupport:
+	path=                          1
+	initialize                     1
+
+ActiveSupport::KeyGenerator:
+	generate_key                   2
+	initialize                     1
+
+ActiveSupport::CachingKeyGenerator:
+	generate_key                   2
+	initialize                     1
+
+ActiveSupport::Cache::Strategy::LocalCache::LocalStore:
+	initialize                     2
+
+ActiveSupport::Cache::Strategy::LocalCache::LocalCacheRegistry:
+	set_cache_for                  2
+	public_send                    2
+	initialize                     1
+
+ActionDispatch::Request:
+	initialize                     30
+	request_method                 5
+	query_string                   5
+	normalize_encode_params        4
+	check_method                   4
+	respond_to?                    4
+	path_info                      4
+	content_mime_type              3
+	parameters                     3
+	cookie_jar                     3
+	split_ip_addresses             2
+	ip                             2
+	accept                         2
+	fullpath                       2
+	reject_trusted_ip_addresses    2
+	content_length                 2
+	script_name                    2
+	formats                        2
+	respond_to_missing?            2
+	session                        2
+	path                           2
+	parse_query                    2
+	GET                            2
+	POST                           2
+	parseable_data?                1
+	media_type                     1
+	form_data?                     1
+	ssl?                           1
+	deep_munge                     1
+	parameter_filter_for           1
+	parameter_filter               1
+	filtered_parameters            1
+	path_parameters                1
+	format                         1
+	use_accept_header              1
+	class                          1
+	trusted_proxy?                 1
+	valid_accept_header            1
+	xml_http_request?              1
+	accepts                        1
+	method                         1
+	get?                           1
+	host                           1
+	scheme                         1
+	filtered_path                  1
+	raw_host_with_port             1
+	cookies                        1
+	headers                        1
+
+ActiveSupport::Notifications::InstrumentationRegistry:
+	instrumenter_for               6
+	public_send                    6
+	initialize                     1
+
+ActiveSupport::Notifications::Instrumenter:
+	finish                         4
+	start                          4
+	instrument                     3
+	unique_id                      1
+	initialize                     1
+
+ActionDispatch::RemoteIp::GetIp:
+	initialize                     1
+
+ActiveRecord::ExplainSubscriber:
+	respond_to?                    3
+	respond_to_missing?            1
+	initialize                     1
+
+ActiveModel::AttributeMethods::ClassMethods::AttributeMethodMatcher:
+	initialize                     9
+
+ActiveRecord::ConnectionAdapters::ConnectionHandler:
+	class_to_pool                  7
+	retrieve_connection_pool       6
+	owner_to_pool                  4
+	retrieve_connection            4
+	connected?                     2
+	connection_pool_list           1
+	pool_for                       1
+	establish_connection           1
+	clear_active_connections!      1
+	remove_connection              1
+	initialize                     1
+
+ERB:
+	eval                           1
+	result                         1
+	new_toplevel                   1
+	set_eoutvar                    1
+	make_compiler                  1
+	initialize                     1
+
+ERB::Compiler:
+	content_dump                   1
+	add_put_cmd                    1
+	make_scanner                   1
+	detect_magic_comment           1
+	compile                        1
+	prepare_trim_mode              1
+	initialize                     1
+
+Encoding:
+	==                             20
+	to_s                           1
+	dummy?                         1
+
+ERB::Compiler::Buffer:
+	push                           3
+	close                          1
+	initialize                     1
+
+ERB::Compiler::SimpleScanner2:
+	scan                           1
+	initialize                     1
+
+Binding:
+	dup                            1
+
+Psych::Handlers::DocumentStream:
+	scalar                         27
+	push                           6
+	pop                            5
+	end_mapping                    4
+	start_mapping                  4
+	initialize                     2
+	start_document                 1
+	start_stream                   1
+	end_document                   1
+
+Psych::Parser:
+	parse                          1
+	initialize                     1
+
+Psych::Nodes::Stream:
+	initialize                     2
+
+Psych::Nodes::Document:
+	initialize                     2
+	class                          1
+	to_ruby                        1
+	root                           1
+
+Psych::Nodes::Mapping:
+	initialize                     8
+	class                          4
+
+Psych::Nodes::Scalar:
+	class                          27
+	initialize                     27
+
+Psych::ScalarScanner:
+	tokenize                       27
+	Integer                        6
+	parse_int                      6
+	initialize                     1
+
+Psych::Visitors::ToRuby:
+	accept                         64
+	visit                          32
+	visit_Psych_Nodes_Scalar       27
+	deserialize                    27
+	register                       27
+	visit_Psych_Nodes_Mapping      4
+	revive_hash                    4
+	initialize                     2
+	visit_Psych_Nodes_Document     1
+
+ActiveRecord::ConnectionAdapters::ConnectionSpecification::Resolver:
+	require                        2
+	resolve_hash_connection        1
+	load_dependency                1
+	resolve_string_connection      1
+	spec                           1
+	initialize                     1
+
+Gem::Dependency:
+	requirement                    2
+	initialize                     2
+	!~                             1
+	=~                             1
+
+Gem::Requirement:
+	initialize                     2
+	class                          2
+	satisfied_by?                  1
+
+Gem::Version:
+	segments                       5
+	class                          3
+	initialize                     2
+	<=>                            2
+	release                        1
+	prerelease?                    1
+	>=                             1
+	bump                           1
+	<                              1
+
+Bundler::SpecSet:
+	sorted                         1
+	each                           1
+	find                           1
+
+Gem::Specification:
+	respond_to?                    2
+	nil?                           1
+
+ActiveRecord::ConnectionAdapters::ConnectionSpecification:
+	initialize                     1
+
+ActiveRecord::RuntimeRegistry:
+	public_send                    28
+	initialize                     1
+
+ActiveRecord::ConnectionAdapters::ConnectionPool:
+	mon_check_owner                9
+	mon_exit                       8
+	mon_synchronize                8
+	mon_enter                      8
+	current_connection_id          7
+	connection                     4
+	initialize                     3
+	connected?                     2
+	new_connection                 1
+	acquire_connection             1
+	checkout                       1
+	checkout_and_verify            1
+	checkout_new_connection        1
+	release_connection             1
+	checkin                        1
+	new_cond                       1
+	mon_initialize                 1
+	release                        1
+
+ActiveRecord::ConnectionAdapters::ConnectionPool::Reaper:
+	run                            1
+	initialize                     1
+
+ActiveRecord::ConnectionAdapters::ConnectionPool::Queue:
+	synchronize                    2
+	no_wait_poll                   1
+	can_remove_no_wait?            1
+	add                            1
+	poll                           1
+	initialize                     1
+
+MonitorMixin::ConditionVariable:
+	initialize                     2
+	signal                         1
+
+SQLite3::Database:
+	busy_timeout                   1
+	initialize                     1
+
+ActiveRecord::ConnectionAdapters::SQLite3Adapter:
+	class                          6
+	initialize                     5
+	run_callbacks                  2
+	respond_to?                    2
+	instance_variable_defined?     2
+	block_given?                   2
+	_checkout_callbacks            1
+	verify!                        1
+	enable_query_cache!            1
+	_run__1343725877675531946__checkout__callbacks 1
+	clear_query_cache              1
+	active?                        1
+	disable_query_cache!           1
+	_checkin_callbacks             1
+	mon_check_owner                1
+	mon_exit                       1
+	mon_enter                      1
+	mon_synchronize                1
+	lease                          1
+	_run__1343725877675531946__checkin__callbacks 1
+	mon_initialize                 1
+	reset_transaction              1
+	expire                         1
+
+ActiveRecord::ConnectionAdapters::ClosedTransaction:
+	initialize                     1
+
+ActiveRecord::ConnectionAdapters::TransactionState:
+	initialize                     1
+
+ActiveRecord::ConnectionAdapters::SchemaCache:
+	prepare_default_proc           1
+	initialize                     1
+
+ActiveRecord::ConnectionAdapters::SQLite3Adapter::StatementPool:
+	initialize                     2
+
+Arel::Visitors::SQLite:
+	initialize                     1
+
+ActionDispatch::Request::Session:
+	loaded?                        8
+	options                        5
+	load_for_read!                 4
+	id                             3
+	exists?                        2
+	is_a?                          2
+	[]                             2
+	[]=                            1
+	load_for_write!                1
+	load!                          1
+	stringify_keys                 1
+	respond_to?                    1
+	has_key?                       1
+	to_hash                        1
+	initialize                     1
+
+ActionDispatch::Request::Session::Options:
+	[]                             9
+	[]=                            1
+	to_hash                        1
+	initialize                     1
+
+ActionDispatch::Journey::Router:
+	get_routes_as_head             1
+	partitioned_routes             1
+	custom_routes                  1
+	simulator                      1
+	ast                            1
+	filter_routes                  1
+	find_routes                    1
+	call                           1
+
+ActionDispatch::Journey::Nodes::Or:
+	type                           1
+	initialize                     1
+
+ActionDispatch::Journey::GTG::TransitionTable:
+	states_hash_for                6
+	[]=                            6
+	move_regexp                    4
+	move                           4
+	move_string                    4
+	add_accepting                  2
+	add_memo                       2
+	memo                           1
+	accepting?                     1
+	initialize                     1
+
+ActionDispatch::Journey::GTG::Simulator:
+	simulate                       1
+	initialize                     1
+
+ActionDispatch::Journey::GTG::MatchData:
+	initialize                     1
+
+ActionDispatch::Journey::Path::Pattern::AnchoredRegexp:
+	visit                          12
+	visit_CAT                      5
+	visit_LITERAL                  3
+	initialize                     2
+	visit_SLASH                    2
+	visit_GROUP                    1
+	accept                         1
+	visit_SYMBOL                   1
+
+ActionDispatch::Journey::Path::Pattern::RegexpOffsets:
+	visit                          24
+	terminal                       5
+	binary                         5
+	visit_CAT                      5
+	visit_LITERAL                  2
+	visit_SLASH                    2
+	visit_SYMBOL                   1
+	visit_GROUP                    1
+	unary                          1
+	visit_DOT                      1
+	accept                         1
+	initialize                     1
+
+ActionDispatch::Journey::Path::Pattern::MatchData:
+	[]                             1
+	length                         1
+	captures                       1
+	initialize                     1
+
+Enumerator:
+	each                           1
+	map                            1
+
+HelloController:
+	class                          13
+	process_action                 7
+	lookup_context                 6
+	instance_variable_defined?     4
+	initialize                     4
+	config                         4
+	_process_options               3
+	respond_to?                    3
+	render                         3
+	render_to_body                 3
+	method_for_action              3
+	_normalize_options             3
+	_layout                        2
+	_conditional_layout?           2
+	params                         2
+	_prefixes                      2
+	protect_against_forgery?       2
+	allow_forgery_protection       2
+	response_body=                 2
+	session                        2
+	view_renderer                  2
+	_render_template               2
+	process                        2
+	block_given?                   2
+	dispatch                       2
+	append_info_to_payload         2
+	cleanup_view_runtime           2
+	_normalize_args                2
+	instance_variable_get          2
+	instance_variables             1
+	_normalize_render              1
+	_layout_for_option             1
+	_handle_render_options         1
+	default_render                 1
+	performed?                     1
+	world                          1
+	send_action                    1
+	formats=                       1
+	_renderers                     1
+	cookies                        1
+	set_request_method_cookie      1
+	view_context                   1
+	set_xhr_redirected_to          1
+	view_context_class             1
+	view_assigns                   1
+	_include_layout?               1
+	verified_request?              1
+	verify_authenticity_token      1
+	_run__1663885267568556715__process_action__callbacks 1
+	_process_action_callbacks      1
+	protected_instance_variables   1
+	run_callbacks                  1
+	_default_layout                1
+	_wrapper_options               1
+	_wrapper_formats               1
+	_wrapper_enabled?              1
+	action_has_layout?             1
+	action_method?                 1
+	_normalize_layout              1
+	controller_path                1
+	request_forgery_protection_token 1
+	details_for_lookup             1
+	form_authenticity_token        1
+	content_type                   1
+	content_type=                  1
+	set_response!                  1
+	abort_xdomain_redirect         1
+	to_a                           1
+
+ActionDispatch::Response:
+	initialize                     3
+	[]                             3
+	body=                          2
+	mon_synchronize                2
+	class                          2
+	munge_body_object              2
+	build_buffer                   2
+	mon_exit                       2
+	mon_check_owner                2
+	mon_enter                      2
+	prepare_cache_control!         1
+	cache_control_segments         1
+	cache_control_headers          1
+	block_given?                   1
+	committed?                     1
+	new_cond                       1
+	status=                        1
+	content_type=                  1
+	to_a                           1
+	rack_response                  1
+	assign_default_content_type_and_charset! 1
+	append_charset?                1
+	handle_conditional_get!        1
+	last_modified?                 1
+	merge_default_headers          1
+	respond_to?                    1
+	mon_initialize                 1
+	each                           1
+
+ActionDispatch::Response::Buffer:
+	initialize                     2
+	respond_to_missing?            1
+	respond_to?                    1
+	each                           1
+
+ActionView::LookupContext:
+	formats=                       4
+	formats                        4
+	details_key                    3
+	normalize_name                 3
+	Array                          3
+	detail_args_for                3
+	args_for_lookup                3
+	_set_detail                    2
+	default_formats                2
+	find_all                       2
+	find                           1
+	default_handlers               1
+	registered_details             1
+	default_locale                 1
+	initialize_details             1
+	with_layout_format             1
+	view_paths=                    1
+	initialize                     1
+
+AbstractController::I18nProxy:
+	initialize                     1
+
+ActionDispatch::Http::ParameterFilter:
+	compiled_filter                1
+	filter                         1
+	initialize                     1
+
+ActiveSupport::HashWithIndifferentAccess:
+	update                         9
+	initialize                     8
+	is_a?                          7
+	default                        6
+	default=                       4
+	tap                            4
+	convert_key                    3
+	block_given?                   2
+	key?                           2
+	convert_value                  2
+	regular_writer                 2
+	dup                            2
+	class                          2
+	merge                          1
+	each                           1
+	with_indifferent_access        1
+	[]                             1
+
+Rack::Utils::KeySpaceConstrainedParams:
+	to_params_hash                 1
+	initialize                     1
+
+ActionDispatch::Http::ParameterFilter::CompiledFilter:
+	call                           1
+	initialize                     1
+
+ActiveSupport::Notifications::Event:
+	initialize                     3
+	duration                       2
+
+ActiveSupport::SubscriberQueueRegistry:
+	get_queue                      9
+	public_send                    9
+	initialize                     1
+
+ActionDispatch::Cookies::CookieJar:
+	write_cookie?                  2
+	signed_or_encrypted            2
+	handle_options                 2
+	[]=                            2
+	[]                             1
+	encrypted                      1
+	write                          1
+	update                         1
+	tap                            1
+	initialize                     1
+
+ActionDispatch::Cookies::EncryptedCookieJar:
+	[]=                            1
+	[]                             1
+	initialize                     1
+
+ActiveSupport::MessageEncryptor:
+	new_cipher                     1
+	_encrypt                       1
+	verifier                       1
+	encrypt_and_sign               1
+	initialize                     1
+
+ActiveSupport::MessageVerifier:
+	generate_digest                1
+	generate                       1
+	initialize                     1
+
+ActionView::Renderer:
+	render_template                1
+	render                         1
+	is_a?                          1
+	initialize                     1
+
+ActiveSupport::InheritableOptions:
+	initialize                     2
+
+ActionView::OutputFlow:
+	get                            1
+	set                            1
+	initialize                     1
+
+ActionView::TemplateRenderer:
+	resolve_layout                 2
+	Array                          1
+	with_layout_format             1
+	find_layout                    1
+	render_with_layout             1
+	render_template                1
+	instrument                     1
+	prepend_formats                1
+	find_template                  1
+	determine_template             1
+	extract_details                1
+	render                         1
+	initialize                     1
+
+ActionView::LookupContext::DetailsKey:
+	object_hash                    2
+	initialize                     2
+
+ActionView::Resolver::Path:
+	to_str                         3
+	initialize                     3
+
+ActionView::Template:
+	method_name                    4
+	locals_code                    2
+	__id__                         2
+	inspect                        2
+	identifier_method_name         2
+	type                           2
+	encode!                        2
+	initialize                     2
+	compile!                       2
+	render                         2
+	Array                          2
+	compile                        2
+	try                            1
+	respond_to?                    1
+	public_send                    1
+	is_a?                          1
+
+ActionView::Template::Handlers::Erubis:
+	add_text                       10
+	add_expr                       8
+	flush_newline_if_pending       6
+	escape_text                    6
+	init_generator                 4
+	add_expr_literal               4
+	init_converter                 4
+	convert_input                  2
+	convert                        2
+	init_evaluator                 2
+	add_preamble                   2
+	add_postamble                  2
+	initialize                     2
+
+ActionView::OutputBuffer:
+	safe_concat                    12
+	html_safe?                     10
+	concat                         8
+	original_concat                6
+	initialize                     6
+	<<                             4
+	respond_to?                    3
+	respond_to_missing?            3
+	encode!                        2
+	to_s                           2
+	html_safe                      1
+	==                             1
+	nil?                           1
+
+Rational:
+	to_f                           5
+	/                              5
+
+ActionController::Parameters:
+	default                        4
+	[]                             4
+	key?                           4
+	initialize                     3
+	convert_key                    2
+	update                         2
+	convert_hashes_to_parameters   2
+	class                          1
+
+ActiveSupport::SafeBuffer:
+	initialize                     46
+	to_s                           4
+	nil?                           4
+	html_safe?                     4
+
+ActionDispatch::Http::Headers:
+	env_name                       1
+	[]                             1
+	initialize                     1
+
+Rack::Utils::HeaderHash:
+	[]=                            22
+	[]                             18
+	each                           2
+	initialize                     2
+	include?                       1
+
+OpenSSL::Cipher::Cipher:
+	final                          1
+	update                         1
+	iv=                            1
+	iv_len                         1
+	random_iv                      1
+	key=                           1
+	encrypt                        1
+	initialize                     1
+
+OpenSSL::Digest::SHA1:
+	initialize                     2
+
+Rack::BodyProxy:
+	respond_to?                    15
+	each                           4
+	close                          4
+	initialize                     4
+	respond_to_missing?            3
+
+WEBrick::HTTPStatus::EOFError:
+	to_s                           1
+	message                        1
+	backtrace                      1
+	initialize                     1
+
+Errno::ENOTCONN:
+	initialize                     2
+	exception                      1
+	backtrace                      1
+
+Errno::EBADF:
+	initialize                     2
+	exception                      1
+	backtrace                      1
+
+-------------
+Totals:
+	Class                                                                                  10242
+	Module                                                                                 5363
+	Symbol                                                                                 4596
+	String                                                                                 3542
+	Rails::Initializable::Initializer                                                      2789
+	Array                                                                                  2393
+	Hash                                                                                   2306
+	Object                                                                                 1003
+	ThreadSafe::Cache                                                                      787
+	ActionDispatch::Journey::Visitors::Each                                                588
+	NilClass                                                                               583
+	File                                                                                   497
+	Fixnum                                                                                 393
+	Mutex                                                                                  368
+	Set                                                                                    349
+	Time                                                                                   305
+	Regexp                                                                                 269
+	Proc                                                                                   264
+	Psych::Visitors::ToRuby                                                                188
+	ActiveSupport::Notifications::Fanout::Subscribers::Evented                             168
+	Pathname                                                                               164
+	HelloWorld::Application                                                                149
+	ActionDispatch::Journey::GTG::Builder                                                  143
+	ActionDispatch::MiddlewareStack::Middleware                                            129
+	HelloController                                                                        129
+	ActionDispatch::Journey::Nodes::Cat                                                    125
+	ActionView::Resolver::Cache::SmallCache                                                125
+	ActionDispatch::Request                                                                117
+	Thread                                                                                 110
+	StringScanner                                                                          108
+	ConditionVariable                                                                      107
+	SizedQueue                                                                             106
+	Mime::Type                                                                             92
+	ActiveSupport::Callbacks::CallbackChain                                                89
+	ActionController::LogSubscriber                                                        89
+	ActiveSupport::Callbacks::Callback                                                     88
+	Sprockets::Environment                                                                 85
+	ActionDispatch::Journey::Nodes::Literal                                                77
+	ActiveSupport::Notifications::Fanout                                                   76
+	ActionDispatch::Journey::Nodes::Slash                                                  61
+	ActionDispatch::Journey::Parser                                                        60
+	ActiveRecord::ConnectionAdapters::ConnectionPool                                       59
+	ActionView::OutputBuffer                                                               59
+	ActiveSupport::SafeBuffer                                                              58
+	ActiveSupport::HashWithIndifferentAccess                                               57
+	Logger::Formatter                                                                      57
+	Rails::Application::Configuration                                                      56
+	ActionDispatch::Journey::Visitors::OptimizedPath                                       56
+	Psych::Nodes::Scalar                                                                   54
+	ActionView::Template::Handlers::Erubis                                                 54
+	ActionDispatch::MiddlewareStack                                                        51
+	Psych::Handlers::DocumentStream                                                        51
+	ActiveSupport::Logger                                                                  51
+	ActionDispatch::Journey::Nodes::Symbol                                                 50
+	Hike::Extensions                                                                       50
+	ActiveSupport::FileUpdateChecker                                                       49
+	ActionDispatch::Journey::Path::Pattern::RegexpOffsets                                  49
+	WEBrick::HTTPRequest                                                                   47
+	Rack::Utils::HeaderHash                                                                45
+	Rails::Initializable::Collection                                                       45
+	Hike::Paths                                                                            44
+	WEBrick::Log                                                                           43
+	ActiveSupport::OrderedOptions                                                          43
+	Sprockets::Railtie::OrderedOptions                                                     42
+	Psych::ScalarScanner                                                                   40
+	ActionDispatch::Response                                                               40
+	Logger::LogDevice::LogDeviceMutex                                                      38
+	ActionDispatch::Journey::Scanner                                                       38
+	ActionView::LogSubscriber                                                              37
+	ActionView::LookupContext                                                              37
+	Hike::Trail                                                                            37
+	ActionDispatch::Journey::Nodes::Dot                                                    36
+	ActiveRecord::ConnectionAdapters::SQLite3Adapter                                       36
+	ActionDispatch::Request::Session                                                       34
+	WEBrick::HTTPVersion                                                                   33
+	Rails::Server                                                                          31
+	ActionDispatch::Journey::GTG::TransitionTable                                          31
+	ActionDispatch::Session::CookieStore                                                   31
+	Rack::BodyProxy                                                                        30
+	ActionView::Template                                                                   30
+	WEBrick::HTTPResponse                                                                  30
+	URI::Generic                                                                           30
+	ActiveRecord::ConnectionAdapters::ConnectionHandler                                    29
+	ActiveRecord::RuntimeRegistry                                                          29
+	ActionDispatch::Routing::Mapper::Mapping                                               29
+	ActionView::OptimizedFileSystemResolver                                                28
+	ActionDispatch::Journey::Path::Pattern::AnchoredRegexp                                 27
+	WEBrick::HTTPServer                                                                    25
+	TCPSocket                                                                              23
+	Encoding                                                                               22
+	ActionController::ParamsWrapper::Options                                               22
+	ActionController::Parameters                                                           22
+	ActionDispatch::Journey::Nodes::Group                                                  21
+	IO                                                                                     21
+	WEBrick::Utils::TimeoutHandler                                                         20
+	I18n::Locale::Tag::Simple                                                              20
+	ActiveSupport::SubscriberQueueRegistry                                                 19
+	URI::HTTP                                                                              19
+	ActionDispatch::Journey::Route                                                         18
+	Logger::LogDevice                                                                      18
+	ActionDispatch::Routing::Mapper                                                        18
+	Gem::Version                                                                           17
+	ActionDispatch::Journey::Nodes::Dummy                                                  17
+	Rails::Paths::Path                                                                     15
+	ActionDispatch::Routing::RouteSet                                                      15
+	ActionView::Template::Handlers::ERB                                                    15
+	ActionDispatch::Journey::Path::Pattern                                                 14
+	ActionDispatch::Cookies::CookieJar                                                     14
+	ActionView::TemplateRenderer                                                           14
+	TrueClass                                                                              14
+	I18n::Config                                                                           13
+	ActionView::PathSet                                                                    13
+	MatchData                                                                              13
+	ActiveSupport::Notifications::InstrumentationRegistry                                  13
+	ActiveSupport::Notifications::Instrumenter                                             13
+	ActionDispatch::Routing::RouteSet::Dispatcher                                          12
+	ActionDispatch::Reloader                                                               12
+	ActionDispatch::Request::Session::Options                                              12
+	ActionController::MiddlewareStack                                                      12
+	Digest::MD5                                                                            12
+	Psych::Nodes::Mapping                                                                  12
+	Rails::Rack::Logger                                                                    10
+	ActionDispatch::Journey::Routes                                                        10
+	ActionDispatch::Callbacks                                                              10
+	Rational                                                                               10
+	Rails::Application::RoutesReloader                                                     10
+	ActiveModel::AttributeMethods::ClassMethods::AttributeMethodMatcher                    9
+	URI::Parser                                                                            9
+	ActionView::Resolver::Cache                                                            9
+	I18n::Locale::Fallbacks                                                                9
+	FalseClass                                                                             9
+	Rails::BacktraceCleaner                                                                8
+	OpenSSL::Cipher::Cipher                                                                8
+	WEBrick::HTTPServer::MountTable                                                        8
+	ActionDispatch::Journey::Router                                                        8
+	Float                                                                                  7
+	ActiveRecord::ConnectionAdapters::ConnectionPool::Queue                                7
+	ERB::Compiler                                                                          7
+	ActiveSupport::Deprecation                                                             7
+	ActionDispatch::Routing::RouteSet::NamedRouteCollection                                7
+	ActiveRecord::ConnectionAdapters::ConnectionSpecification::Resolver                    7
+	Rack::ETag                                                                             6
+	ActionView::FallbackFileSystemResolver                                                 6
+	ActiveSupport::StringInquirer                                                          6
+	ActionView::Resolver::Path                                                             6
+	Gem::Dependency                                                                        6
+	ERB                                                                                    6
+	Rails::Paths::Root                                                                     5
+	ActiveRecord::ExplainSubscriber                                                        5
+	ActiveSupport::Cache::Strategy::LocalCache::LocalCacheRegistry                         5
+	Gem::Requirement                                                                       5
+	StringIO                                                                               5
+	ActionDispatch::Response::Buffer                                                       5
+	ActiveSupport::Notifications::Event                                                    5
+	ActiveSupport::MessageEncryptor                                                        5
+	ERB::Compiler::Buffer                                                                  5
+	ActionDispatch::FileHandler                                                            5
+	TCPServer                                                                              5
+	Psych::Nodes::Document                                                                 5
+	Errno::EBADF                                                                           4
+	ActionDispatch::Journey::Path::Pattern::MatchData                                      4
+	Errno::ENOTCONN                                                                        4
+	WEBrick::HTTPStatus::EOFError                                                          4
+	Sprockets::Manifest                                                                    4
+	Rack::Handler::WEBrick                                                                 4
+	ActionView::LookupContext::DetailsKey                                                  4
+	I18n::Backend::Simple                                                                  4
+	ActionDispatch::Routing::RouteSet::NamedRouteCollection::UrlHelper::OptimizedUrlHelper 4
+	ActionView::Renderer                                                                   4
+	ActionDispatch::RequestId                                                              4
+	Turbolinks::Engine                                                                     4
+	Monitor                                                                                3
+	Jquery::Rails::Engine                                                                  3
+	ActionDispatch::Cookies::EncryptedCookieJar                                            3
+	ActionDispatch::Http::ParameterFilter                                                  3
+	Coffee::Rails::Engine                                                                  3
+	ActiveSupport::MessageVerifier                                                         3
+	Rails::Engine::Configuration                                                           3
+	Mime::Mimes                                                                            3
+	MonitorMixin::ConditionVariable                                                        3
+	Gem::Specification                                                                     3
+	ActionView::OutputFlow                                                                 3
+	Bundler::SpecSet                                                                       3
+	Rack::ConditionalGet                                                                   3
+	ActiveRecord::QueryCache                                                               3
+	ActiveSupport::Dependencies::ClassCache                                                3
+	ActiveSupport::KeyGenerator                                                            3
+	ActionDispatch::Http::Headers                                                          3
+	ThreadGroup                                                                            3
+	ActionDispatch::ParamsParser                                                           3
+	ActiveSupport::Cache::Strategy::LocalCache::Middleware                                 3
+	ActiveSupport::CachingKeyGenerator                                                     3
+	Rack::ContentLength                                                                    2
+	Rack::Head                                                                             2
+	TracePoint                                                                             2
+	OpenSSL::Digest::SHA1                                                                  2
+	MultiJson::Adapters::JsonGem                                                           2
+	ActionDispatch::Flash                                                                  2
+	Rack::Lock                                                                             2
+	Gem::PathSupport                                                                       2
+	ActionDispatch::Cookies                                                                2
+	Rack::Builder                                                                          2
+	ActiveSupport::Cache::Strategy::LocalCache::LocalStore                                 2
+	JSON::Ext::Parser                                                                      2
+	ERB::Compiler::SimpleScanner2                                                          2
+	ActiveSupport::InheritableOptions                                                      2
+	Psych::Parser                                                                          2
+	Psych::Nodes::Stream                                                                   2
+	ActiveRecord::ConnectionAdapters::ConnectionManagement                                 2
+	ActionDispatch::RemoteIp                                                               2
+	Rack::Sendfile                                                                         2
+	ActiveRecord::ConnectionAdapters::ConnectionPool::Reaper                               2
+	ActionDispatch::DebugExceptions                                                        2
+	SQLite3::Database                                                                      2
+	ActionDispatch::Http::ParameterFilter::CompiledFilter                                  2
+	ActionDispatch::ShowExceptions                                                         2
+	Rack::Utils::KeySpaceConstrainedParams                                                 2
+	Rack::Runtime                                                                          2
+	ActiveRecord::ConnectionAdapters::SQLite3Adapter::StatementPool                        2
+	ActionDispatch::Journey::Router::Strexp                                                2
+	ActionDispatch::Journey::Nodes::Or                                                     2
+	ActionDispatch::Journey::GTG::Simulator                                                2
+	ActionDispatch::Static                                                                 2
+	Rack::MethodOverride                                                                   2
+	Enumerator                                                                             2
+	ActiveRecord::ConnectionAdapters::SchemaCache                                          2
+	AbstractController::I18nProxy                                                          1
+	ActionDispatch::Journey::GTG::MatchData                                                1
+	Arel::Visitors::SQLite                                                                 1
+	ActiveRecord::ConnectionAdapters::TransactionState                                     1
+	ActiveRecord::ConnectionAdapters::ClosedTransaction                                    1
+	Rack::File                                                                             1
+	ActiveRecord::ConnectionAdapters::ConnectionSpecification                              1
+	ActionDispatch::Journey::Formatter                                                     1
+	Hike::Index                                                                            1
+	Binding                                                                                1
+	Sprockets::Index                                                                       1
+	ActionDispatch::RemoteIp::GetIp                                                        1
+	ActiveSupport::Logger::SimpleFormatter                                                 1
+	ActionDispatch::PublicExceptions                                                       1
+	Sprockets::Cache::FileStore                                                            1
+	Rails::Configuration::MiddlewareStackProxy                                             1
+	Logger                                                                                 1
+
+
+ Total Method Calls: 42174
